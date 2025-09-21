@@ -1,0 +1,26 @@
+[project]
+name = "doc-agent"
+version = "0.1.0"
+description = "AI-powered financial document research prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "pydantic>=2.0",
+    "openai>=1.0",
+    "pinecone-client>=3.0",
+    "docling",
+    "langchain-openai",
+    "langgraph",
+    "langchain-core",
+]
+
+[project.optional-dependencies]
+dev = ["black", "ruff", "mypy"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
