@@ -1,0 +1,39 @@
+# Core dependencies
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.12
+langchain-core==0.1.10
+langgraph==0.0.26
+langsmith==0.0.77
+
+# Document processing
+docling==1.18.0
+pypdf2==3.0.1
+pymupdf==1.23.0
+
+# Vector store and embeddings
+pinecone-client==3.0.0
+openai==1.6.1
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# API and web framework
+fastapi==0.108.0
+uvicorn==0.25.0
+python-multipart==0.0.6
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+requests==2.31.0
+numpy==1.26.2
+pandas==2.1.4
+
+# Development and testing
+pytest==7.4.4
+pytest-asyncio==0.21.1
+black==23.12.1
